@@ -1,6 +1,7 @@
 /* Base */
 @import url(./base/normalize.css);
 @import url(./base/general.css);
+@import url(./base/mix.css);
 
 /* Layout */
 @import url(./layout/header.css);

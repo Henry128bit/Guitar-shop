@@ -1,8 +1,38 @@
 .navbar {
-
+    background-color: #e3f2fd;
 }
 
-.navbar-img {
-    width: 80px;
-    height: 80px;
+.navbar__logo {
+    width: 105px;
+    height: 50px;
+}
+
+.navbar__links-wrapper {
+    position: relative;
+}
+
+.navbar__link-img {
+    width: 25px;
+    height: 25px;
+}
+
+.navbar__minicart-quantity {
+    position: absolute;
+    top: -9px;
+    right: -10px;
+    background-color: #C87EFD;
+    color: #fff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.navbar__link {
+    font-family: 'East Sea Dokdo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
 }

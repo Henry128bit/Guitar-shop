@@ -10,32 +10,51 @@
     <link rel="stylesheet" href="/src/css/main.css">
 </head>
 <body>
-    <div class="page">
-        <header class="header">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <img src="/src/images/logo.png" class="mx-auto d-block navbar-img" alt="Logo">
-                    <ul class="navbar-nav align-items-center">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <div class="page">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light px-1">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand m-0" href="#">
+            <img src="/src/images/logo.svg" class="d-block navbar__logo" alt="Martin guitars">
+          </a>
+          <a class="nav-link d-flex navbar__links-wrapper">
+            <img src="/src/images/search.svg" class="d-block navbar__link-img" alt="Search">
+            <img src="/src/images/basket-shopping.svg" class="d-block ms-2 navbar__link-img" alt="Shopping bag">
+            <span class="navbar__minicart-quantity">0</span>
+          </a>
+          <div class="collapse navbar-collapse py-2" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link link navbar__link" aria-current="page" href="#">Guitars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link navbar__link" href="#">Strings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link navbar__link" href="#">Guitar repair</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link navbar__link" href="#">This is Martin</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link navbar__link" href="#">Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link navbar__link" href="#">Sign In</a>
+              </li>
+            </ul>
+            <form class="d-none d-lg-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
