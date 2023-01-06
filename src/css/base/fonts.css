@@ -1,0 +1,9 @@
+/* east-sea-dokdo-regular - latin */
+@font-face {
+    font-family: 'East Sea Dokdo';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('/src/fonts/east-sea-dokdo-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/src/fonts/east-sea-dokdo-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
