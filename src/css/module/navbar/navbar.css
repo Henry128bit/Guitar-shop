@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #e3f2fd;
+    padding: 0;
 }
 
 .navbar__logo {
@@ -31,8 +31,25 @@
 }
 
 .navbar__link {
-    font-family: 'East Sea Dokdo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    position: relative;
+
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #24674F;
+}
+
+.navbar__link::after {
+    position: absolute;
+    right: 8px;
+
+    content: url(/src/images/arrow-right.svg);
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+}
+
+.navbar__form {
+    display: none;
+    width: 100%;
 }
