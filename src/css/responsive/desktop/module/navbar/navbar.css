@@ -1,0 +1,25 @@
+@media screen and (min-width: 992px) {
+    .navbar__logo {
+        width: 115px;
+        height: 80px;
+    }
+
+    .navbar__link {
+        padding: 0;
+    }
+
+    .navbar__link::after {
+        display: none;
+    }
+
+    .navbar__icons-wrapper {
+        width: auto;
+        display: block;
+
+        margin-left: 16px;
+    }
+
+    .navbar__form {
+        width: auto;
+    }
+}

@@ -17,34 +17,28 @@
   <div class="page">
     <header class="header">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+        <div class="container-fluid p-0">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand m-0" href="#main">
+          <a class="navbar-brand m-0 p-0" href="#main">
             <img src="/src/images/logo.svg" class="d-block navbar__logo" alt="Martin guitars">
           </a>
-          <div class="navbar__links-wrapper d-flex">
-            <a class="nav-link navbar__search-toggler" href="#search">
-              <img src="/src/images/search.svg" class="d-block navbar__link-img" alt="Search">
-            </a>
+          <div class="d-flex order-lg-4 navbar__icons-wrapper">
+            <button class="d-lg-none navbar__search-toggler" type="button">
+              <i class="d-block icon navbar__search-icon"></i>
+            </button>
             <a class="nav-link" href="#basket">
-              <img src="/src/images/basket-shopping.svg" class="d-block ms-2 navbar__link-img" alt="Shopping bag">
+              <i class="d-block icon navbar__basket-icon"></i>
               <span class="navbar__minicart-quantity">0</span>
             </a>
           </div>
-
-
-          <form action="" class="navbar__form">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Martin 000-15SM">
-              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
-            </div>
+          <form class="d-lg-flex order-lg-3 mt-2 m-lg-0 navbar__form">
+            <input class="form-control me-2" type="search" placeholder="Martin 000-15SM">
+            <button class="btn btn-outline-success navbar__btn" type="button">Search</button>
           </form>
-
-
-          <div class="collapse navbar-collapse py-2" id="navbarTogglerDemo03">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse py-2 p-lg-0 ms-lg-4" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 m-lg-0">
               <li class="nav-item">
                 <a class="nav-link link navbar__link" aria-current="page" href="#">Guitars</a>
               </li>
@@ -60,14 +54,10 @@
               <li class="nav-item">
                 <a class="nav-link link navbar__link" href="#">Support</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mt-2 mt-lg-0 ms-lg-2">
                 <a class="nav-link link navbar__link" href="#">Sign In</a>
               </li>
             </ul>
-            <form class="d-none d-lg-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
