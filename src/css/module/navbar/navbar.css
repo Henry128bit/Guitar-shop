@@ -7,13 +7,37 @@
     height: 50px;
 }
 
-.navbar__links-wrapper {
+.navbar__icons-wrapper {
     position: relative;
+
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+
+    margin-right: 10px;
 }
 
-.navbar__link-img {
-    width: 25px;
-    height: 25px;
+.navbar__search-toggler {
+    border: none;
+    outline: none;
+    color: inherit;
+
+    padding: 0;
+  
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.navbar__search-icon::before {
+    content: url(/src/images/search.svg);
+}
+
+.navbar__basket-icon::before {
+    content: url(/src/images/basket-shopping.svg);
+
+    position: relative;
+    top: 1px;
 }
 
 .navbar__minicart-quantity {
@@ -30,13 +54,18 @@
     font-size: 10px;
 }
 
+.navbar__btn {
+    border-color: #24804F;
+    color: #24804F;
+}
+
 .navbar__link {
     position: relative;
 
     font-weight: 700;
     font-size: 16px;
 
-    color: #24674F;
+    color: #24804F;
 }
 
 .navbar__link::after {
