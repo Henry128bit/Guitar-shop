@@ -1,0 +1,60 @@
+/* Bottstrap | Change button color */
+
+.carousel-indicators .active {
+    background-color: #2A804F;
+}
+
+.carousel-indicators [data-bs-target] {
+    transition: none;
+}
+
+/* Module CSS */
+.carousel-intro {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.carousel-intro__description {
+    background-color: #000;
+    padding: 16px 16px 36px;
+}
+
+.carousel-inner__title {
+    font-size: 28px;
+    line-height: 1.14;
+    font-weight: 500;
+
+    margin-bottom: 25px;
+}
+
+.carousel-inner__text {
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.carousel-inner__btn {
+    width: 130px;
+    height: 44px;
+
+    font-size: 14px;
+    font-weight: 500;
+    color:#FFF;
+    
+    background-color: #2A804F;
+    border-radius: 0;
+    border: none;
+
+    padding-top: 9px;
+}
+
+.carousel-inner__btn:hover {
+    background-color: rgba(42, 128, 79, 0.6);
+}
+
+.carousel-intro__indicators {
+    margin: 0;
+}

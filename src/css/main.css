@@ -1,5 +1,5 @@
 /* Base */
-@import url(./base/normalize.css);
+/* @import url(./base/normalize.css); */
 @import url(./base/general.css);
 @import url(./base/mix.css);
 
@@ -8,6 +8,7 @@
 
 /* Module */
 @import url(./module/navbar/navbar.css);
+@import url(./module/carousel/_intro/carousel-intro.css);
 
 /* State */
 @import url(./state/navbar/form/navbar__form_active.css);
