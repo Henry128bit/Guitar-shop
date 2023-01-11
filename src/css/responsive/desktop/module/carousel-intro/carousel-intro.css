@@ -1,0 +1,48 @@
+@media screen and (min-width: 992px) {
+    /* .carousel-intro__item {
+        position: relative;
+    } */
+
+    .carousel-intro__img {
+        max-width: 50%;
+    }
+
+    .carousel-intro__description {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        padding: 0 50px;
+    }
+
+    .carousel-intro__title {
+        font-size: 60px;
+        line-height: 1.11;
+
+        margin-bottom: 35px;
+    }
+
+    .carousel-intro__text {
+        font-size: 20px;
+        line-height: 1.2;
+
+        margin-bottom: 30px;
+    }
+
+    .carousel-intro__btn {
+        padding-top: 10px;
+    }
+
+    .carousel-intro__indicators {
+        display: block;
+        left: auto;
+        right: calc((100% / 2 / 2) - (25% / 2 / 2)); /* Попробуй найти правильные вычисления */
+        bottom: 48px;
+    }
+}

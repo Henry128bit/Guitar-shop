@@ -21,7 +21,7 @@
     padding: 16px 16px 36px;
 }
 
-.carousel-inner__title {
+.carousel-intro__title {
     font-size: 28px;
     line-height: 1.14;
     font-weight: 500;
@@ -29,14 +29,14 @@
     margin-bottom: 25px;
 }
 
-.carousel-inner__text {
+.carousel-intro__text {
     font-size: 16px;
     line-height: 1.25;
     font-weight: 400;
     margin-bottom: 25px;
 }
 
-.carousel-inner__btn {
+.carousel-intro__btn {
     width: 130px;
     height: 44px;
 
@@ -51,10 +51,11 @@
     padding-top: 9px;
 }
 
-.carousel-inner__btn:hover {
+.carousel-intro__btn:hover {
     background-color: rgba(42, 128, 79, 0.6);
 }
 
 .carousel-intro__indicators {
     margin: 0;
+    bottom: 5px;
 }
