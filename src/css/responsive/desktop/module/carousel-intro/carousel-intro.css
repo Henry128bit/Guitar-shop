@@ -35,14 +35,12 @@
         margin-bottom: 30px;
     }
 
-    .carousel-intro__btn {
-        padding-top: 10px;
-    }
-
     .carousel-intro__indicators {
+        max-width: 155px;
+
         display: block;
         left: auto;
-        right: calc((100% / 2 / 2) - (25% / 2 / 2)); /* Попробуй найти правильные вычисления */
+        right: calc(25% - (155px / 2));
         bottom: 48px;
     }
 }

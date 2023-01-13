@@ -1,0 +1,8 @@
+.banner {
+    height: 20px;
+    background-color: #2A804F;
+}
+
+.banner__link:hover {
+    color: rgba(0, 0, 0, 0.5);
+}

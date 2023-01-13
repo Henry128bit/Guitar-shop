@@ -1,0 +1,10 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider__container {
+    padding: 0 10vw;
+    display: flex;
+    scroll-behavior: smooth;
+}
