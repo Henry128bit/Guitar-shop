@@ -5,8 +5,10 @@
 
 /* Layout */
 @import url(./layout/header.css);
+@import url(./layout/models.css);
 
 /* Module */
+@import url(./module/banner/banner.css);
 @import url(./module/navbar/navbar.css);
 @import url(./module/carousel/_intro/carousel-intro.css);
 

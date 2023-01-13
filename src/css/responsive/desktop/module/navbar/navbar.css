@@ -1,4 +1,8 @@
 @media screen and (min-width: 992px) {
+    .navbar {
+        padding: 0 24px;
+    }
+
     .navbar__logo {
         width: 115px;
         height: 80px;
