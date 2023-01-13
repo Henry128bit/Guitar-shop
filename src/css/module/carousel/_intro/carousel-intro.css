@@ -36,25 +36,6 @@
     margin-bottom: 25px;
 }
 
-.carousel-intro__btn {
-    width: 130px;
-    height: 44px;
-
-    font-size: 14px;
-    font-weight: 500;
-    color:#FFF;
-    
-    background-color: #2A804F;
-    border-radius: 0;
-    border: none;
-
-    padding-top: 9px;
-}
-
-.carousel-intro__btn:hover {
-    background-color: rgba(42, 128, 79, 0.6);
-}
-
 .carousel-intro__indicators {
     margin: 0;
     bottom: 5px;
