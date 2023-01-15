@@ -10,6 +10,8 @@ search.addEventListener('click', () => {
     form.classList.toggle('navbar__form_active');
 });
 
+// SCROLL
+
 function scroll() {
     let containerDimensions = sliderContainer.getBoundingClientRect();
     let containerWidth = containerDimensions.width;
@@ -22,9 +24,5 @@ function scroll() {
         sliderContainer.scrollLeft -= containerWidth;
     });
 }
-
-console.log(sliderContainer);
-console.log(sliderPreBtn);
-console.log(sliderNxtBtn);
 
 scroll();
