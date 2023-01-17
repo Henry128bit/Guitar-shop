@@ -1,0 +1,6 @@
+.strings {
+    background: url(/src/images/strings-background.png) no-repeat center;
+    background-size: cover;
+
+    padding: 68px 16px 24px;
+}
