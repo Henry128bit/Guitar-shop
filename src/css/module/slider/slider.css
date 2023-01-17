@@ -7,19 +7,21 @@
     display: flex;
     overflow-x: auto; /* hiden - не позволяет скролить, но содержимое показывает */
     scroll-behavior: smooth;
+    transition-duration: 0.3s;
 
-    padding: 0 24px;
+    padding: 0; /* Поменяй падинг когда сделаешь бесконечную прокрутку */
 }
 
-/* .slider__container::-webkit-scrollbar {
+.slider__container::-webkit-scrollbar {
     display: none;
-  } */
+}
 
 .slider__card {
     flex: 0 0 auto;
     width: 250px;
     height: 440px;
-    margin-right: 40px;
+
+    margin-right: 20px;
 }
 
 .slider__card:last-child {
@@ -47,7 +49,7 @@
     letter-spacing: .06em;
     text-transform: uppercase;
 
-    margin-bottom: 8px;
+    margin: 0;
 }
 
 .slider__card-text {
@@ -59,7 +61,7 @@
     text-align: center;
     color: #000;
     
-    margin-bottom: 16px;
+    margin: 0;
 }
 
 .slider__pre-btn {

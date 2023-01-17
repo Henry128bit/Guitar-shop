@@ -22,6 +22,8 @@
     }
 
     .carousel-intro__title {
+        max-width: 560px;
+
         font-size: 60px;
         line-height: 1.11;
 
@@ -29,7 +31,7 @@
     }
 
     .carousel-intro__text {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.2;
 
         margin-bottom: 30px;

@@ -5,7 +5,9 @@
 
 /* Layout */
 @import url(./layout/header.css);
+@import url(./layout/intro.css);
 @import url(./layout/models.css);
+@import url(./layout/strings.css);
 
 /* Module */
 @import url(./module/banner/banner.css);
@@ -15,6 +17,8 @@
 @import url(./module/title-models/title-models.css);
 @import url(./module/subtitle-models/subtitle-models.css);
 @import url(./module/slider/slider.css);
+
+@import url(./module/strings-info/strings-info.css);
 
 /* State */
 @import url(./state/navbar/form/navbar__form_active.css);

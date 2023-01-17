@@ -15,13 +15,15 @@ search.addEventListener('click', () => {
 function scroll() {
     let containerDimensions = sliderContainer.getBoundingClientRect();
     let containerWidth = containerDimensions.width;
+    
+    let scrollWidth = containerWidth / 4;
 
     sliderNxtBtn.addEventListener('click', () => {
-        sliderContainer.scrollLeft += containerWidth;
+        sliderContainer.scrollLeft += scrollWidth;
     });
 
     sliderPreBtn.addEventListener('click', () => {
-        sliderContainer.scrollLeft -= containerWidth;
+        sliderContainer.scrollLeft -= scrollWidth;
     });
 }
 
