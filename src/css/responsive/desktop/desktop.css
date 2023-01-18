@@ -9,3 +9,7 @@
 @import url(./module/title-models/title-models.css);
 @import url(./module/subtitle-models/subtitle-models.css);
 @import url(./module/slider/slider.css);
+
+/* Strings */
+@import url(./layout/strings.css);
+@import url(./module/strings-info/strings-info.css);
