@@ -1,41 +1,52 @@
 .strings-info {
-    height: 275px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
-    padding-left: 16px;
-    margin: 0 auto;
 }
 
 .string-info__title {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1.14;
+    letter-spacing: .03em;
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
+
+    padding-left: 18px;
+}
+
+.strings__links-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .strings-info__link {
     position: relative;
 
-    width: 230px;
+    width: 210px;
     background-color: transparent;
     border: 1px solid #fff;
 
+    font-size: 13px;
     letter-spacing: .1em;
+
+    padding-left: 40px;
+    margin-bottom: 16px;
 }
 
 .strings-info__link::before {
     position: absolute;
-    left: 10px;
 
     content: url(/src/images/circle-play-regular.svg);
-    top: 10px;
+    top: calc(50% - 11px);
+    left: 15px;
 
     display: inline-block;
     width: 22px;
     height: 22px;
+
+    background-color: #fff;
+    border-radius: 11px;
 }
 
 .strings-info__link:hover {

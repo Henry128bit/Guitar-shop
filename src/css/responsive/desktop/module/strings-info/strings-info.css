@@ -1,0 +1,10 @@
+@media screen and (min-width: 992px) {
+    .string-info__title {
+        max-width: 625px;
+        font-size: 62px;
+    }
+
+    .strings__links-wrapper {
+        flex-direction: row;
+    }
+}
