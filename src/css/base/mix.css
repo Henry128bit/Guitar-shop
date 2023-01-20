@@ -45,3 +45,10 @@
     opacity: 1;
     background-color: #2A804F;
 }
+
+.title {
+    font-size: 21px;
+    line-height: 1.14;
+    font-weight: 700;
+    text-transform: uppercase;
+}
