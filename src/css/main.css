@@ -8,6 +8,7 @@
 @import url(./layout/intro.css);
 @import url(./layout/models.css);
 @import url(./layout/strings.css);
+@import url(./layout/castom.css);
 
 /* Module */
 @import url(./module/banner/banner.css);
