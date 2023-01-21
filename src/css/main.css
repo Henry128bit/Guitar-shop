@@ -8,14 +8,13 @@
 @import url(./layout/intro.css);
 @import url(./layout/models.css);
 @import url(./layout/strings.css);
-@import url(./layout/castom.css);
+@import url(./layout/custom.css);
 
 /* Module */
 @import url(./module/banner/banner.css);
 @import url(./module/navbar/navbar.css);
 @import url(./module/carousel/_intro/carousel-intro.css);
 
-@import url(./module/title-models/title-models.css);
 @import url(./module/subtitle-models/subtitle-models.css);
 @import url(./module/slider/slider.css);
 

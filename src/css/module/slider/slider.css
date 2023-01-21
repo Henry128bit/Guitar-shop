@@ -77,3 +77,34 @@
     width: 100%;
     height: 100%;
 }
+
+/* Castom block */
+
+.slider__card-custom {
+    flex: 0 0 auto;
+    width: 255px;
+    height: 520px;
+
+    margin-right: 20px;
+}
+
+.slider__card-info-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 15px;
+}
+
+.slider__link-custom {
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #000;
+}
+
+.slider__price-custom {
+    font-size: 20px;
+}
