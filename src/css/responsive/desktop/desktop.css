@@ -13,3 +13,6 @@
 /* Strings */
 @import url(./layout/strings.css);
 @import url(./module/strings-info/strings-info.css);
+
+/* Custom */
+@import url(./module/title-custom/title-custom.css);

@@ -19,4 +19,15 @@
     .slider__card-text {
         font-size: 13px;
     }
+
+    /* Castom block */
+
+    .slider__container-custom {
+        height: 600px;
+    }
+
+    .slider__card-custom {
+        width: 275px;
+        height: 485px;
+    }
 }
