@@ -23,11 +23,27 @@
     /* Castom block */
 
     .slider__container-custom {
-        height: 600px;
+        height: 560px;
+
+        padding-left: 48px;
     }
 
     .slider__card-custom {
         width: 275px;
         height: 485px;
+
+        margin-right: 32px;
+    }
+    
+    .slider__card-img:hover {  /* В общем.. Делай через opacity для каждой картинки, и подложку для второй */
+        opacity: 0;
+    }
+
+    .slider__link-img-custom:hover {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        background: no-repeat, url(/src/images/custom-card-1.2.webp);
+        background-size: contain;
     }
 }
