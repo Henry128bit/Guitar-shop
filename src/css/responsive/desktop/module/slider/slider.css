@@ -1,6 +1,7 @@
 @media screen and (min-width: 992px) {
     .slider__container {
         height: 470px;
+        overflow-x: hidden;
     }
     
     .slider__card {
@@ -35,7 +36,7 @@
         margin-right: 32px;
     }
     
-    .slider__card-img:hover {  /* В общем.. Делай через opacity для каждой картинки, и подложку для второй */
+    .slider__card-img-custom:hover {  /* В общем.. Делай через opacity для каждой картинки, и подложку для второй */
         opacity: 0;
     }
 
