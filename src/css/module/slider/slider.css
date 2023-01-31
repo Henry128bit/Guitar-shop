@@ -5,11 +5,11 @@
 
 .slider__container {
     display: flex;
-    overflow-x: auto; /* hiden - не позволяет скролить, но содержимое показывает */
+    overflow-x: auto;
     scroll-behavior: smooth;
     transition-duration: 0.3s;
 
-    padding: 0; /* Поменяй падинг когда сделаешь бесконечную прокрутку */
+    padding: 0;
 }
 
 .slider__container::-webkit-scrollbar {
@@ -62,20 +62,6 @@
     color: #000;
     
     margin: 0;
-}
-
-.slider__pre-btn {
-    left: 0;
-    transform: rotate(180deg);
-}
-
-.slider__nxt-btn {
-    right: 0;
-}
-
-.slider__btn-img {
-    width: 100%;
-    height: 100%;
 }
 
 /* Castom block */
