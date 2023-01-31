@@ -1,55 +1,53 @@
 'use strict';
 
-const search = document.querySelector('.navbar__search-toggler'),
-      form = document.querySelector('.navbar__form'),
-      sliderContainers = document.querySelectorAll('.slider__container'),
-      sliderPreBtn = document.querySelectorAll('.slider__pre-btn'),
-      sliderNxtBtn = document.querySelectorAll('.slider__nxt-btn');
+window.addEventListener('DOMContentLoaded', () => {
 
-search.addEventListener('click', () => {
-    form.classList.toggle('navbar__form_active');
-});
+    // SEARCH
+    const search = document.querySelector('.navbar__search-toggler'),
+          form = document.querySelector('.navbar__form');
 
-// SCROLL
-
-sliderContainers.forEach(item => {
-    console.log(item.scrollWidth);
-});
-
-sliderNxtBtn.forEach(item => {
-    item.addEventListener('click', (e) => {
-        console.log(e.currentTarget.parentElement.classList.contains('slider-custom'));
+    search.addEventListener('click', () => {
+        form.classList.toggle('navbar__form_active');
     });
+
+    //SCROLL
+    const sliderContainer = document.querySelector('.slider__container'),
+          sliderContainerCustom = document.querySelector('.slider__container-custom'),
+          sliderPreBtn = document.querySelectorAll('.slider__pre-btn'),
+          sliderNxtBtn = document.querySelectorAll('.slider__nxt-btn');
+
+    function scrollNxt() {
+        sliderNxtBtn.forEach(item => {
+            item.addEventListener('click', (e) => {
+                if (e.currentTarget.hasAttribute('data-custom')) {
+                    let containerWidth = sliderContainerCustom.getBoundingClientRect().width;
+                    let scrollWidth = containerWidth / 4;
+                    sliderContainerCustom.scrollLeft += scrollWidth;
+                } else {
+                    let containerWidth = sliderContainer.getBoundingClientRect().width;
+                    let scrollWidth = containerWidth / 4;
+                    sliderContainer.scrollLeft += scrollWidth;
+                }
+            });
+        });
+    }
+
+    function scrollPre() {
+        sliderPreBtn.forEach(item => {
+            item.addEventListener('click', (e) => {
+                if (e.currentTarget.hasAttribute('data-custom')) {
+                    let containerWidth = sliderContainerCustom.getBoundingClientRect().width;
+                    let scrollWidth = containerWidth / 4;
+                    sliderContainerCustom.scrollLeft -= scrollWidth;
+                } else {
+                    let containerWidth = sliderContainer.getBoundingClientRect().width;
+                    let scrollWidth = containerWidth / 4;
+                    sliderContainer.scrollLeft -= scrollWidth;
+                }
+            });
+        });
+    }
+
+    scrollNxt();
+    scrollPre();
 });
-
-function scroll() {
-    // console.log(sliderContainers);
-    // let containerDimensions = sliderContainer.getBoundingClientRect();
-    // let containerWidth = containerDimensions.width;
-    
-    // let scrollWidth = containerWidth / 4;
-
-    // sliderPreBtn.forEach(item => {
-    //     item.addEventListener('click', () => {
-    //         sliderContainer.scrollLeft -= scrollWidth;
-    //     });
-    // });
-
-    // sliderNxtBtn.forEach(item => {
-    //     item.addEventListener('click', () => {
-    //         sliderContainer.scrollLeft += scrollWidth;
-    //     });
-    // });
-
-
-
-    // sliderNxtBtn.addEventListener('click', () => {
-    //     sliderContainer.scrollLeft += scrollWidth;
-    // });
-
-    // sliderPreBtn.addEventListener('click', () => {
-    //     sliderContainer.scrollLeft -= scrollWidth;
-    // });
-}
-
-scroll();
