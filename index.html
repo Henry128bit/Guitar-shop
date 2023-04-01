@@ -244,10 +244,6 @@
           </div>
         </div>
       </section>
-
-
-
-
       <section class="custom">
         <h2 class="title title-custom text-center text-lg-start mb-4 mb-lg-5 ms-lg-5">Feast Your Eyes on Our Custom Shop Collection</h2>
         <div class="slider slider-custom">
@@ -259,9 +255,9 @@
           </button>
           <div class="slider__container slider__container-custom">
             <div class="slider__card-custom">
-              <a href="#bentley-snowflake-first-edition" class="slider__link-img-custom">
+              <a data-card="1" href="#bentley-snowflake-first-edition" class="slider__link-img-custom">
                 <img src="./src/images/custom-card-1.1.webp" alt="bentley-snowflake-first-edition" class="slider__card-img slider__card-img-custom">
-                <!-- <img src="./src/images/custom-card-1.2.webp" alt="bentley-snowflake-first-edition" class="slider__card-img"> -->
+                <img id="image-1" src="./src/images/custom-card-1.2.webp" alt="bentley-snowflake-first-edition" class="slider__card-img slider__card-img-custom slider__card-img-change">
               </a>
               <div class="slider__card-info-custom">
                 <a href="#bentley-snowflake-first-edition" class="link slider__link-custom">Bentley Snowflake First Edition</a>
@@ -269,28 +265,40 @@
               </div>
             </div>
             <div class="slider__card-custom">
-              <img src="./src/images/custom-card-2.1.webp" alt="custom-shop-d-28-1937" class="slider__card-img slider__card-img-custom">
+              <a data-card="2" href="#custom-shop-d-28-1937" class="slider__link-img-custom">
+                <img src="./src/images/custom-card-2.1.webp" alt="custom-shop-d-28-1937" class="slider__card-img slider__card-img-custom">
+                <img id="image-2" src="./src/images/custom-card-2.2.webp" alt="custom-shop-d-28-1937" class="slider__card-img slider__card-img-custom slider__card-img-change">
+              </a>
               <div class="slider__card-info-custom">
                 <a href="#custom-shop-d-28-1937" class="link slider__link-custom">Custom Shop D-28 1937</a>
                 <span class="slider__price-custom">$5,409.00</span>
               </div>
             </div>
             <div class="slider__card-custom">
-              <img src="./src/images/custom-card-3.1.webp" alt="ool-earth" class="slider__card-img slider__card-img-custom">
+              <a data-card="3" href="#ool-earth" class="slider__link-img-custom">
+                <img src="./src/images/custom-card-3.1.webp" alt="ool-earth" class="slider__card-img slider__card-img-custom">
+                <img id="image-3" src="./src/images/custom-card-3.2.webp" alt="ool-earth" class="slider__card-img slider__card-img-custom slider__card-img-change">
+              </a>
               <div class="slider__card-info-custom">
                 <a href="#ool-earth" class="link slider__link-custom">00L Earth</a>
                 <span class="slider__price-custom">$2,299.00</span>
               </div>
             </div>
             <div class="slider__card-custom">
-              <img src="./src/images/custom-card-4.1.webp" alt="d-200-deluxe" class="slider__card-img slider__card-img-custom">
+              <a data-card="4" href="#d-200-deluxe" class="slider__link-img-custom">
+                <img src="./src/images/custom-card-4.1.webp" alt="d-200-deluxe" class="slider__card-img slider__card-img-custom">
+                <img id="image-4" src="./src/images/custom-card-4.2.webp" alt="ool-earth" class="slider__card-img slider__card-img-custom slider__card-img-change">
+              </a>
               <div class="slider__card-info-custom">
                 <a href="#d-200-deluxe" class="link slider__link-custom">D-200 Deluxe</a>
                 <span class="slider__price-custom">$124,999.00</span>
               </div>
             </div>
             <div class="slider__card-custom">
-              <img src="./src/images/custom-card-5.1.webp" alt="dx-woodstock-50th" class="slider__card-img slider__card-img-custom">
+              <a data-card="5" href="#dx-woodstock-50th" class="slider__link-img-custom">
+                <img src="./src/images/custom-card-5.1.webp" alt="dx-woodstock-50th" class="slider__card-img slider__card-img-custom">
+                <img id="image-5" src="./src/images/custom-card-5.2.webp" alt="dx-woodstock-50th" class="slider__card-img slider__card-img-custom slider__card-img-change">
+              </a>
               <div class="slider__card-info-custom">
                 <a href="#dx-woodstock-50th" class="link slider__link-custom">DX WOODSTOCK 50th</a>
                 <span class="slider__price-custom">$649.00</span>
@@ -300,7 +308,38 @@
         </div>
       </section>
 
-
+      <section class="about">
+        <div class="box-about box-about_1">
+          <img class="box-about_img" src="./src/images/box-about_1.jpg" alt="co-workers">
+        </div>
+        <div class="box-about box-about_2">
+          <h2 class="box-about_title">Mission Statement</h2>
+          <p class="box-about_text">To Be An Organization Of Dedicated Co-Workers Committed To Exceptional Leadership And 
+            Innovation In The Fretted Instrument And String Manufacturing Industries, While Celebrating Our Heritage And 
+            Traditions As A Family-Owned Company.</p>
+        </div>
+        <div class="box-about box-about_3">
+          <h2 class="box-about_title">Operating Values</h2>
+          <h4 class="box-about_subtitle">We Are Committed To:</h4>
+          <ul>
+            <li class="box-about_item">Providing a workplace with strong morale and open communications</li>
+            <li class="box-about_item">Promoting an environment of teamwork and cooperation</li>
+            <li class="box-about_item">Promoting a diverse workforce</li>
+            <li class="box-about_item">Providing a safe work environment</li>
+            <li class="box-about_item">Honoring and protecting our environment</li>
+            <li class="box-about_item">Dealing fairly and honestly with all stakeholders</li>
+            <li class="box-about_item">Encouraging active participation in charitable organizations</li>
+            <li class="box-about_item">Maintaining high standards of musical excellence and artistic integrity</li>
+            <li class="box-about_item">Improving our product, processes, and work life</li>
+            <li class="box-about_item">Providing the world’s finest products and services to our customers</li>
+            <li class="box-about_item">Respecting our heritage of quality craftsmanship while encouraging innovation and exploration of new technologies</li>
+            <li class="box-about_item">Managing the risks associated with growth and innovation</li>
+          </ul>
+        </div>
+        <div class="box-about box-about_4">
+          <img class="box-about_img" src="./src/images/box-about_4.webp" alt="man-at-work">
+        </div>
+      </section>
 
     </main>
 

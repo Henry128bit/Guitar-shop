@@ -9,15 +9,16 @@
 @import url(./layout/models.css);
 @import url(./layout/strings.css);
 @import url(./layout/custom.css);
+@import url(./layout/about.css);
 
 /* Module */
 @import url(./module/banner/banner.css);
 @import url(./module/navbar/navbar.css);
 @import url(./module/carousel/_intro/carousel-intro.css);
-
 @import url(./module/subtitle-models/subtitle-models.css);
 @import url(./module/slider/slider.css);
 @import url(./module/strings-info/strings-info.css);
+@import url(./module/box-about/box-about.css);
 
 /* State */
 @import url(./state/navbar/form/navbar__form_active.css);
