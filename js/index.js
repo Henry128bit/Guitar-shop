@@ -50,4 +50,53 @@ window.addEventListener('DOMContentLoaded', () => {
 
     scrollNxt();
     scrollPre();
+
+    // IMAGE CHANGE
+    const customImages = document.querySelectorAll('.slider__link-img-custom');
+
+    customImages.forEach(element => {
+        element.addEventListener('mouseenter', (e) => {
+            let num = parseInt(e.target.getAttribute('data-card'));
+            switch (num) {
+                case 1:
+                    document.querySelector('#image-1').style.zIndex = 1;
+                    break;
+                case 2:
+                    document.querySelector('#image-2').style.zIndex = 1;
+                    break;
+                case 3:
+                    document.querySelector('#image-3').style.zIndex = 1;
+                    break;
+                case 4:
+                    document.querySelector('#image-4').style.zIndex = 1;
+                    break;
+                case 5:
+                    document.querySelector('#image-5').style.zIndex = 1;
+                    break;
+            }
+        });
+    });
+
+    customImages.forEach(element => {
+        element.addEventListener('mouseleave', (e) => {
+            let num = parseInt(e.target.getAttribute('data-card'));
+            switch (num) {
+                case 1:
+                    document.querySelector('#image-1').style.zIndex = -1;
+                    break;
+                case 2:
+                    document.querySelector('#image-2').style.zIndex = -1;
+                    break;
+                case 3:
+                    document.querySelector('#image-3').style.zIndex = -1;
+                    break;
+                case 4:
+                    document.querySelector('#image-4').style.zIndex = -1;
+                    break;
+                case 5:
+                    document.querySelector('#image-5').style.zIndex = -1;
+                    break;
+            }
+        });
+    });
 });
