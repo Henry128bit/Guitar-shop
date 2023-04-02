@@ -1,0 +1,8 @@
+@media screen and (min-width: 992px) {
+    .about{
+        flex-direction: row;
+        align-items: center;
+    
+        height: 100%;
+    }
+}

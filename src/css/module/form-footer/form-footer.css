@@ -1,0 +1,29 @@
+.form-footer {
+    margin: 0;
+}
+
+.form-footer_btn {
+    height: 36px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+    background-color: #2A804F;
+    color: #FFF;
+
+    border: none;
+    border-radius: 0.375rem;
+}
+
+.form-footer_btn:visited {
+    color: #FFF;
+    background-color: rgba(42, 128, 79, 0.6); 
+}
+
+.form-footer_btn:hover {
+    background-color: rgba(42, 128, 79, 0.9);
+}
+
+.form-footer_btn:active {
+    color: #FFF;
+    background-color: rgba(42, 128, 79, 0.6); 
+}

@@ -1,25 +1,26 @@
 .box-about {
-    width: 50%;
-    height: 100%;
-
     font-family: 'Sofia Sans', sans-serif;
     line-height: 1.4;
     letter-spacing: .1em;
+
+    width: 100%;
+    height: auto;
 }
 
 .box-about_1 {
-    height: 50%;
+    height: 100%;
 }
+
 .box-about_2 {
-    padding: 0px 50px;
+    padding: 40px 25px;
 }
 
 .box-about_3 {
-    padding: 0px 50px;
+    height: 100%;
 }
 
 .box-about_4 {
-    height: 50%;
+    padding: 40px 25px;
 }
 
 .box-about_img {
@@ -28,8 +29,10 @@
 }
 
 .box-about_title {
-    font-size: 54px;
+    font-size: 34px;
     font-weight: 700;
+
+    margin-bottom: 20px;
 }
 
 .box-about_subtitle {
@@ -38,8 +41,12 @@
 }
 
 .box-about_text {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
+}
+
+.box-about_list {
+    margin: 0;
 }
 
 .box-about_item {
