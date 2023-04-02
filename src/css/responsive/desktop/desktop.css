@@ -16,3 +16,7 @@
 
 /* Custom */
 @import url(./module/title-custom/title-custom.css);
+
+/* About */
+@import url(./layout/about.css);
+@import url(./module/box-about/box-about.css);

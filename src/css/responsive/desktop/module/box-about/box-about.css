@@ -1,0 +1,33 @@
+@media screen and (min-width: 992px) {
+    .box-about {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .box-about_1 {
+        height: 50%;
+    }
+    .box-about_2 {
+        padding: 0px 50px;
+    }
+    
+    .box-about_3 {
+        height: 50%;
+        order: 4;
+    }
+    
+    .box-about_4 {
+        padding: 0px 50px;
+        order: 3;
+    }
+    
+    .box-about_title {
+        font-size: 54px;
+        font-weight: 700;
+    }
+    
+    .box-about_text {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

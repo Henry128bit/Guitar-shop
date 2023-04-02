@@ -10,6 +10,7 @@
 @import url(./layout/strings.css);
 @import url(./layout/custom.css);
 @import url(./layout/about.css);
+@import url(./layout/footer.css);
 
 /* Module */
 @import url(./module/banner/banner.css);
@@ -19,6 +20,9 @@
 @import url(./module/slider/slider.css);
 @import url(./module/strings-info/strings-info.css);
 @import url(./module/box-about/box-about.css);
+@import url(./module/navbar/_footer/navbar-footer.css);
+@import url(./module/form-footer/form-footer.css);
+@import url(./module/banner/_footer/banner-footer.css);
 
 /* State */
 @import url(./state/navbar/form/navbar__form_active.css);
