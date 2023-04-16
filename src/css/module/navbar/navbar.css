@@ -30,11 +30,11 @@
 }
 
 .navbar__search-icon::before {
-    content: url(/src/images/search.svg);
+    content: url(../../../../src/images/search.svg);
 }
 
 .navbar__basket-icon::before {
-    content: url(/src/images/basket-shopping.svg);
+    content: url(../../../../src/images/basket-shopping.svg);
 
     position: relative;
     top: 1px;
@@ -74,7 +74,7 @@
     position: absolute;
     right: 8px;
 
-    content: url(/src/images/arrow-right.svg);
+    content: url(../../../../src/images/arrow-right.svg);
     display: inline-block;
     width: 8px;
     height: 8px;
