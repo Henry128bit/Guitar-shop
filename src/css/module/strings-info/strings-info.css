@@ -37,7 +37,7 @@
 .strings-info__link::before {
     position: absolute;
 
-    content: url(/src/images/circle-play-regular.svg);
+    content: url(../../../../src/images/circle-play-regular.svg);
     top: calc(50% - 11px);
     left: 15px;
 
