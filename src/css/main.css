@@ -1,31 +1,31 @@
 /* Base */
-@import url(/base/normalize.css);
-@import url(/base/general.css);
-@import url(/base/mix.css);
+@import url(./base/normalize.css);
+@import url(./base/general.css);
+@import url(./base/mix.css);
 
 /* Layout */
-@import url(/layout/header.css);
-@import url(/layout/intro.css);
-@import url(/layout/models.css);
-@import url(/layout/strings.css);
-@import url(/layout/custom.css);
-@import url(/layout/about.css);
-@import url(/layout/footer.css);
+@import url(./layout/header.css);
+@import url(./layout/intro.css);
+@import url(./layout/models.css);
+@import url(./layout/strings.css);
+@import url(./layout/custom.css);
+@import url(./layout/about.css);
+@import url(./layout/footer.css);
 
 /* Module */
-@import url(/module/banner/banner.css);
-@import url(/module/navbar/navbar.css);
-@import url(/module/carousel/_intro/carousel-intro.css);
-@import url(/module/subtitle-models/subtitle-models.css);
-@import url(/module/slider/slider.css);
-@import url(/module/strings-info/strings-info.css);
-@import url(/module/box-about/box-about.css);
-@import url(/module/navbar/_footer/navbar-footer.css);
-@import url(/module/form-footer/form-footer.css);
-@import url(/module/banner/_footer/banner-footer.css);
+@import url(./module/banner/banner.css);
+@import url(./module/navbar/navbar.css);
+@import url(./module/carousel/_intro/carousel-intro.css);
+@import url(./module/subtitle-models/subtitle-models.css);
+@import url(./module/slider/slider.css);
+@import url(./module/strings-info/strings-info.css);
+@import url(./module/box-about/box-about.css);
+@import url(./module/navbar/_footer/navbar-footer.css);
+@import url(./module/form-footer/form-footer.css);
+@import url(./module/banner/_footer/banner-footer.css);
 
 /* State */
-@import url(/state/navbar/form/navbar__form_active.css);
+@import url(./state/navbar/form/navbar__form_active.css);
 
 /* Responsive */
-@import url(/responsive/desktop/desktop.css);
+@import url(./responsive/desktop/desktop.css);
